@@ -1,6 +1,6 @@
 module "network" {
   source              = "Azure/network/azurerm"
-  version             = "2.0.0"
+  version             = "1.1.1"
   resource_group_name = azurerm_resource_group.myresourcegroup.name
   location            = "centralus"
   address_space       = "10.0.0.0/16"
