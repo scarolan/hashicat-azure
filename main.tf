@@ -1,5 +1,9 @@
-provider "azurerm" {
-  version = "=1.44.0"
+terraform {
+  required_providers {
+    azurerm = {
+      version = "= 1.44"
+    }
+  }
 }
 
 resource "azurerm_resource_group" "myresourcegroup" {
